@@ -1,0 +1,21 @@
+@import 'skins2';
+
+@mixin BTN {
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 40%;
+    background: black;
+    outline: none;
+  }
+  #Get{
+    @include BTN;
+  }
+  #Set{
+    @include BTN;
+    display:none;
+  }

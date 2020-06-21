@@ -1,0 +1,21 @@
+@import 'skins2';
+.tab{
+  border:$border;
+  min-width: 250px;
+}
+th{
+  border-left:$border;
+  border-right: $border;
+  padding:10px;
+  text-align: center;
+
+}
+table{
+  border-spacing: 0px;
+  display: none;
+}
+td{
+  padding:10px;
+  text-align: center;
+  border:$border;
+}
