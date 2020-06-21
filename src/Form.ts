@@ -31,7 +31,6 @@ export class Form {
         }
     }
     getValue(): void {
-        // TODO: pętla wyświetlająca wartości kolejnych pól
         document.getElementById('Get').style.display="block";
         document.getElementById('Set').style.display="none";
         let X = document.getElementById('tabela');
@@ -114,7 +113,7 @@ export class Form {
         country.value=JSON.parse(retrievedObject).country;
 
         document.getElementById('Set').addEventListener('click',() => this.change(x))
-        
+
     }
     change(x: string){
         let SurnameEd = this.fields[0].getValue();
